@@ -1,0 +1,195 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.home p {
+    font-size: 28px;
+    font-weight: 500;
+    padding-right: 10rem;
+}
+
+
+.botao__text {
+    color: var(--text-color);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.botao__cadastrar {
+    border-radius: 12px ;
+    border: 15px solid var(--main-color);
+    background-color: var(--main-color);
+    color: white;
+    text-decoration: none;
+}
+
+.botao__entrar {
+    color: var(--text-color);
+    font-size: 20px;
+    padding: 0px 1rem 0px 30rem ;
+    text-decoration: none;
+}
+
+.sobre {
+    text-align: center;
+}
+
+.principal {
+    color: var(--main-color);
+    font-size: 19px;
+    padding-top: 6rem;
+}
+
+.secundario {
+    font-size: 50px;
+}
+
+.text {
+    padding-top: 50px;
+    color: var(--text-color);
+    font-size: 23px;
+}
+
+.projeto__principal {
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+
+}
+
+.text__principal {
+    font-size: 60px;
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+.text__secundario {
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.text__span {   
+    font-size: 18px;
+}
+
+.teste {
+    width: 62%;
+    padding: 5rem;
+}
+
+.text__reuniao {
+    color: var(--text-color);
+    font-size: 23px;
+}
+
+.img__reuniao {
+    width: 90%;
+    padding: 40px;
+}
+
+.trabalhos {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+}
+
+.trabalhos__software {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    padding:2rem 0 1.5rem 0;
+}
+
+
+.text__design {
+    border: 2px solid #EAECF0;
+    border-radius: 15px;
+    width: 50%;
+    height: 60%;
+    padding: 2rem;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.text__trabalhos {
+    font-size: 25px;
+    font-weight: 500;
+    width: 50%;
+    padding: 20px 0 10px 0;
+    font-weight: 500;
+}
+
+.container__trabalhos {
+    display:flex;
+}
+
+.text__empregos {
+    color: var(--text-color);
+    font-size: 18px;
+    padding: 15px 10px;
+}
+
+.especial {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 20px ;
+}
+
+.falando {
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    margin: 5%;
+    padding: 30px;
+}
+
+.nome {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.servico {
+    font-size: 14px;
+    color: var(--text-color);
+    margin: 20px;
+}
+
+.final {
+    text-align: center;
+    background: #F9FAFB;
+    padding: 20px;
+}
+
+.text__footer {
+    color: var(--text-color);
+    font-size: 20px;
+    padding: 0 0 18px 0;
+}
+
+.email {
+    border: 1px solid #D0D5DD;
+    border-radius: 15px;
+    padding: 15px ;
+    width: 15%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.botao__cadastro {
+    font-size: 16px;
+}
+
